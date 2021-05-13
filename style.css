@@ -70,17 +70,18 @@ header {
 }
 
 .main-banner-text { 
+    display: grid;
     width: var(--site-width);   
     text-align: center;
     margin: 0 auto;
-    height: auto;
+    /* height: auto; */
 }
 
-.main-banner-text > h1 {
+.main-banner-text h1 {
     padding-bottom: 15px;
 }
 
-.main-banner-text > p {
+.main-banner-text p{
     font-size: 1.3em;
 }
 
@@ -118,6 +119,8 @@ input {
     justify-content: center;
     width: var(--site-width);
     margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .logo-box {
@@ -158,14 +161,20 @@ footer {
         display: inline;
     }
 
+    #main-banner {
+        height: auto;
+    }
+
     .main-banner-text {
-        width: auto;
+        width: var(--site-width);
+        padding-top: 50px;
+
     }
     
-    .main-banner-text > p {
-        /* padding-top: 10px; */
-        padding-bottom: 10px;
-        font-size: 1.3em;
+    .main-banner-text p {
+        padding-top: 10px;
+        padding-bottom: 30px;
+
     }
     
     #sub-container {
