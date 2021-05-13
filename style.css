@@ -142,7 +142,7 @@ footer {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     h2 {
         font-size: 2em;
     }
