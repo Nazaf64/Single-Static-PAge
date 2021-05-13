@@ -153,10 +153,6 @@ img {
     .main-banner-text {
         width: auto;
     }
-
-    .main-banner-text > h1 {
-        /* padding-top: 25px; */
-    }
     
     .main-banner-text > p {
         /* padding-top: 10px; */
