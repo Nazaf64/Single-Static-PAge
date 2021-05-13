@@ -130,6 +130,14 @@ img {
     height: 100px;
 }
 
+footer {
+    color: #fff;
+    background-color: var(--theme-color);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 @media screen and (max-width: 500px) {
     h2 {
