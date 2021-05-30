@@ -58,6 +58,21 @@ header {
     padding: 5px;
 }
 
+a:link, a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: antiquewhite;
+    font-weight: bold;
+}
+
+a:focus {
+    text-decoration: antiquewhite;
+    font-weight: bold;
+}
+
 #main-banner {
     color: #fff;
     background-image: url('./images/tech_background.jpg');
