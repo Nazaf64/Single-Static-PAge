@@ -1,5 +1,5 @@
 # Single-Static-Page
----
+
 Single Static Page using HTML and CSS only
 
 My first attempt at building a responsive static page from scratch
